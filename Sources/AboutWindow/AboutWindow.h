@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import <Cocoa/Cocoa.h>
 
 	//
 	//  AboutWindow.h
@@ -15,6 +16,3 @@ FOUNDATION_EXPORT double AboutWindowVersionNumber;
 FOUNDATION_EXPORT const unsigned char AboutWindowVersionString[];
 
 	// In this header, you should import all the public headers of your framework using statements like #import <AboutWindow/PublicHeader.h>
-
-@interface AboutWindowController : NSWindowController
-@end
