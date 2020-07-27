@@ -1,0 +1,370 @@
+# Created by https://www.toptal.com/developers/gitignore/api/macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# End of https://www.toptal.com/developers/gitignore/api/macos
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/windows
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/xcode
+# Edit at https://www.toptal.com/developers/gitignore?templates=xcode
+
+### Xcode ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Gcc Patch
+/*.gcno
+
+### Xcode Patch ###
+
+## Xcode project
+# *.xcodeproj/*
+# *.xcodeproj/project.pbxproj
+# *.xcodeproj/project.xcworkspace/
+# *.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+# *.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+# *.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/*
+# *.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+# *.xcodeproj/project.xcworkspace/xcuserdata/*
+# *.xcodeproj/xcshareddata/*
+
+## Xcode project User settings
+# *.xcodeproj/xcuserdata/*
+
+## Xcode Workspace
+# *.xcworkspace/*
+# *.xcworkspace/contents.xcworkspacedata
+# *.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+# *.xcworkspace/xcshareddata/swiftpm/*
+# *.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+## Xcode Workspace User settings
+# *.xcworkspace/xcuserdata/*
+
+# Xcode project
+*.xcodeproj/*
+!*.xcodeproj/*.plist
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+
+# Xcode Workspace
+!*.xcworkspace/contents.xcworkspacedata
+
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# End of https://www.toptal.com/developers/gitignore/api/xcode
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/swift
+# Edit at https://www.toptal.com/developers/gitignore?templates=swift
+
+### Swift ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# End of https://www.toptal.com/developers/gitignore/api/swift
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/swiftpackagemanager
+# Edit at https://www.toptal.com/developers/gitignore?templates=swiftpackagemanager
+
+# ### SwiftPackageManager ###
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+#
+.build/*
+Package.resolved
+
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata hence it is not needed unless you have added a package configuration file to your project
+# .swiftpm
+
+# .swiftpm/xcode/xcuserdata/*
+# .swiftpm/xcode/package.xcworkspace/*
+# .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+# .swiftpm/xcode/package.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+# .swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# SPM
+.swiftpm/*
+
+# SPM Workspace
+!.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# SPM User settings
+.swiftpm/xcode/xcuserdata/
+
+# End of https://www.toptal.com/developers/gitignore/api/swiftpackagemanager
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/cocoapods
+# Edit at https://www.toptal.com/developers/gitignore?templates=cocoapods
+
+### CocoaPods ###
+## CocoaPods GitIgnore Template
+
+# We recommend against adding the Pods directory to your .gitignore.
+# However you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+
+# CocoaPods - Only use to conserve bandwidth / Save time on Pushing
+#           - Also handy if you have a large number of dependant pods
+#           - AS PER https://guides.cocoapods.org/using/using-cocoapods.html NEVER IGNORE THE LOCK FILE
+
+Pods/
+
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# End of https://www.toptal.com/developers/gitignore/api/cocoapods
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/carthage
+# Edit at https://www.toptal.com/developers/gitignore?templates=carthage
+
+### Carthage ###
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build/
+Carthage/Checkouts/
+
+# End of https://www.toptal.com/developers/gitignore/api/carthage
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/fastlane
+# Edit at https://www.toptal.com/developers/gitignore?templates=fastlane
+
+### fastlane ###
+# fastlane - A streamlined workflow tool for Cocoa deployment
+#
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+# fastlane specific
+fastlane/report.xml
+
+# deliver temporary files
+fastlane/Preview.html
+
+# snapshot generated screenshots
+fastlane/screenshots/**/*.png
+fastlane/screenshots/screenshots.html
+
+# scan temporary files
+fastlane/test_output
+
+# Fastlane.swift runner binary
+fastlane/FastlaneRunner
+
+# End of https://www.toptal.com/developers/gitignore/api/fastlane
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/xcodeinjection
+# Edit at https://www.toptal.com/developers/gitignore?templates=xcodeinjection
+
+### XcodeInjection ###
+# Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+# End of https://www.toptal.com/developers/gitignore/api/xcodeinjection
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/jetbrains+all
+# Edit at https://www.toptal.com/developers/gitignore?templates=jetbrains+all
+
+### JetBrains+all ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files, since they will be recreated, and may cause churn.
+# Uncomment if using auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+### JetBrains+all Patch ###
+# Ignores the whole .idea folder and all .iml files
+# See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
+
+.idea/
+
+# Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
+
+*.iml
+modules.xml
+.idea/misc.xml
+*.ipr
+
+# Sonarlint plugin
+.idea/sonarlint
+
+# End of https://www.toptal.com/developers/gitignore/api/jetbrains+all

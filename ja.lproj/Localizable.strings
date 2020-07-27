@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  AboutWindow
+
+  Created by ISHIKAWA Koutarou on 2020/07/14.
+*/
+
+//MARK: - AboutWindowController IBActions "visitWebsite(_:)"
+
+// If the variable value _AboutWindowController.appWebsiteURL_ is nil, it is output as an error message.
+"appWebsiteURL_is_nil" = "エラー: about windowでプロパティ「appWebsiteURL」に値を設定してください。";
+
+
+//MARK: - AboutWindowController IBActions "showAcknowledgments(_:)"
+
+// The alternate string to be displayed in the button "Acknowledgments" on Window, when the variable value _useTextViewForAcknowledgments_ is true.
+"buttonLabel_Credits" = "クレジット";
+
+// The string to be displayed in the button "Acknowledgments" on Window.
+"buttonLabel_Acknowledgments" = "謝辞";
+
+// If the variable value _AboutWindowController.acknowledgmentsPath_ is nil, it is output as an error message.
+"acknowledgmentsPath_is_nil" = "エラー: 謝辞ファイルをロードできませんでした。";
+
+
+//MARK: - AboutWindowController func "windowDidLoad()"
+
+// The string to be displayed in the label "appVersion" on InfoView.
+"label_appVersion" = "Version %1@ (Build %2@)";
+
+// The string to be displayed in the button "visitWebsiteButton" on Window.
+"buttonLabel_VisitWebsite" = "%1@ Webサイトを表示";
