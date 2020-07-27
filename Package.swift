@@ -12,8 +12,8 @@ let package: Package = Package.init(
 	dependencies: [
 		// Dependencies declare other packages that this package depends on.
 		.package(url: "https://github.com/DaveWoodCom/XCGLogger.git", from: "7.0.1"),
-		.package(url: "https://github.com/stein2nd/SwiftTryCatch.git", branch: "SPM25"),
-		.package(url: "https://github.com/stein2nd/TransparentScroller.git", branch: "master"),
+		//.package(url: "https://github.com/stein2nd/SwiftTryCatch.git", branch: "SPM25"),
+		//.package(url: "https://github.com/stein2nd/TransparentScroller.git", branch: "master"),
 	],
 	targets: [
 		// Targets are the basic building blocks of a package. A target can define a module or a test suite.
